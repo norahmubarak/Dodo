@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vt323&family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://font.dowload/font/minecraft-3" rel="stylesheet">
+    <link rel="mainfest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div class="top-section">
+        <img src="assets/image 1.png">
+        <div class="progress-with-text">
+        <!--<div class="progress-label">Progress:</div>-->
+        <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="progress-text" id="progressText">0 task done</div>
+        </div> 
+        </div>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="What's on your mind today?"autocomplete="off" required>
+            <button type="submit">Add Task</button>
+            <div id="message" class="hidden"></div>
+        </form>
+
+        <ul id="todo-list"> 
+            <!-- Tasks will be added here dynamically -->       
+        </ul>
+        <div id="limitAlert" class="alert hidden">
+  <span id="alertMessage">تم الوصول للحد الأقصى من المهام.</span>
+  <span id="closeAlert" class="close-btn">&times;</span>
+</div>
+    </div>
+    <script src="script.js"></script>
+    </body> 
+</html>
