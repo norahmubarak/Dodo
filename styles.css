@@ -7,7 +7,7 @@
 
 body {
     direction: ltr;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 .container {
    background: url('assets/download (41).png') no-repeat center center;
     background-size: cover;
-    max-width: 80%;
+    max-width: 90%;
     width: 100%;
     height: 500px;
     border-radius: 20px;
@@ -90,7 +90,7 @@ background-color: #D72188;
     text-align: center;
     color: #BBF892;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 
@@ -106,7 +106,7 @@ background-color: #D72188;
     padding: 10px;
     border: 2px solid #D72188;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: #BBF892;
     text-align: left;
     padding-left: 20px
@@ -126,7 +126,7 @@ background-color: #D72188;
 }
 
 #todo-form button {
-    padding: 5px 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 20px;
     background-color: #D72188;
