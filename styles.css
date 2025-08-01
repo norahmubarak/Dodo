@@ -106,7 +106,7 @@ background-color: #D72188;
     padding: 10px;
     border: 2px solid #D72188;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #BBF892;
     text-align: left;
     padding-left: 20px
@@ -132,7 +132,7 @@ background-color: #D72188;
     background-color: #D72188;
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .todo-item {
