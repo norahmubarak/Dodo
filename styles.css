@@ -12,6 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     background: url('assets/download (43).png');
+    max-width: 100%;
+    overflow: hidden;
 }
 .container {
    background: url('assets/download (41).png') no-repeat center center;
@@ -46,6 +48,7 @@ body {
 }
 .top-section img {
     width: 150px;
+    max-width: 100%;
     height: auto;
     margin-right: 20px;
     object-fit: contain;
