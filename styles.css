@@ -90,7 +90,7 @@ background-color: #D72188;
     text-align: center;
     color: #BBF892;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
@@ -126,13 +126,13 @@ background-color: #D72188;
 }
 
 #todo-form button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
     border-radius: 20px;
     background-color: #D72188;
     color: #fff;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .todo-item {
@@ -141,12 +141,12 @@ background-color: #D72188;
     align-items: center;
     background-color: #BBF892;
     color: #D72188;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border: 2px solid #D72188;
     border-radius: 30px;
     margin-top: 20px;
     position: relative;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .todo-item input[type="checkbox"] {
@@ -164,7 +164,7 @@ background-color: #D72188;
     text-decoration: line-through;
     text-decoration-color: #f07fc1;
     text-decoration-thickness: 2px;
-    color: #aa9d9d;
+    color: #ea3cc7;
 }
 .delete-button {
     background-color: #ff3b6f;
