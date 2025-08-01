@@ -16,7 +16,7 @@ body {
 .container {
    background: url('assets/download (41).png') no-repeat center center;
     background-size: cover;
-    max-width: 90%;
+    max-width: 100%;
     width: 100%;
     height: 500px;
     border-radius: 20px;
